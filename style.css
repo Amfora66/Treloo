@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+body{
+    background-color: #C4C4C4;
+    font-family: "Poppins", sans-serif;
+}
+li{
+    list-style-type:none;
+   }
+a{ 
+    text-decoration: none;
+    color: inherit;
+}
+.header{
+    padding-top: 30px;
+    /* margin-bottom: 70px; */
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+.header .container{
+    background-image: url(img/mainPic.jpg);
+    background-repeat: no-repeat;
+}
+.menu{
+    display: flex;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    gap: 50px;
+    align-items: center;}
+
+.headerTitle{
+    padding: 0 310px;
+    margin-bottom: 40px; 
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.headerTitleDownText{
+    padding: 0 328px;
+    padding-bottom: 281px;
+    font-size: 24px;
+    line-height: 200%;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.logoMenu{
+    display: flex;
+    align-items: center;
+    margin-bottom: 240px;
+    padding-top: 24px;
+    padding-left: 130px;
+}
+.logo{
+    margin-right: 431px;
+}
+
+.menuBtn{
+    background: #ffffff;
+    border-radius: 12px; 
+    padding: 15px 44px; 
+    /* padding-left: 44px;  */
+    align-items:center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #3E86F5;
+}
+
+.heroTitle{
+    padding-top: 157px;
+    margin-bottom: 60px;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+}
+.offersBtnBlock{
+    max-width: 340px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 39px;
+    padding: 20px 7px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+.offerItemBtn{
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #3E86F5;
+}
+.offerItem{
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+.offersCarts{
+    display: flex;
+    gap: 50px;
+    max-width: 1150px;
+    margin: 0 auto;
+    
+}
+.offersCartsLogaSea{
+    background-color: #FFFFFF;
+    border-radius: 0 0 50px 50px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
+    padding-bottom: 145px;
+}
+.offersCartsImg{
+    background-color: #FFFFFF;
+    border-radius: 50px 50px 0 0;
+    padding: 21px 28px;
+}
+.offersCartsRelax{ 
+    display: flex;
+    gap: 12px;
+    padding-left: 27px;
+    margin-bottom: 10px;
+}
+.relax{
+    padding: 0 15px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #F178B6;
+    border-radius: 100px;
+    background: #FCDDEC;
+}
+.daysNights{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.logaSea{
+    padding-left: 27px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.offersCartsPrice{
+    display: flex;
+    padding-left: 27px; 
+    align-items:baseline;
+}
+.price{
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: 500;
+}
+.person{
+    font-size: 18px;
+    line-height: 36px;
+    color: #574f4f;
+    font-weight: 300;
+    margin-right: 55px;
+}
+.bookNow{
+    padding: 13px 19px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #3E86F5;
+    border-radius: 10px;
+    background: #F2F6FF;
+}
+
+.textDescrTitle{
+    margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 72px;
+    color: #000000;
+    font-weight: 600;
+}
+.description{
+    margin-bottom: 100px;
+    /* box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05); */
+}
+.description .container{
+    padding: 243px 0 111px 130px;
+    display: flex;
+}
+.span{
+    margin-right: 120px;
+    background-image: url(img/TravelAnyCorner.jpg);
+    background-repeat: no-repeat;
+    width: 480px;
+    min-height: 800px;
+    border-radius: 75px;
+}
+.textDescr{
+    max-width: 580px;
+    padding-top: 100px;
+    
+}
+.text{
+    margin-bottom: 43px;
+    font-size: 20px;
+    line-height: 200%;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+}
+.textDescrBtn{
+    padding: 23px 34px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #3E86F5;
+    border-radius: 10px;
+}
